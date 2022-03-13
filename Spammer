@@ -1,7 +1,9 @@
-packet: main
+package main
 
-import [ "fmt" 
-         ]
+import ( 
+       "fmt"
+       "https://github.com/bwmarrin/discordgo"
+         
+)
 
-
-If user 
+Func SexMCspam 
