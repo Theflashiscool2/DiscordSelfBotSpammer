@@ -1,9 +1,26 @@
-package main
+package interact
 
 import ( 
-       "fmt"
        "https://github.com/bwmarrin/discordgo"
-         
+       "https://github.com/Prim69/FBI-Bot/tree/master/lib/SpeedyCmds/command/ctx"
+
+var ( 
+        Token string  
 )
 
-Func SexMCspam 
+func init() {
+
+	flag.StringVar(&Token, "t", "", "Bot Token")
+	flag.Parse()
+}
+
+Func SexMCspam(s *discordgo.Session, m *discordgo.MessageCreate) {
+
+	if m.Author.ID == s.729708767545000027 {
+		return
+	}
+
+	if m.Content == "start" {
+		s.ChannelMessageSend(m.ChannelID, "SexMC on top W")
+	}
+}
