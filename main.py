@@ -589,3 +589,7 @@ async def start(ctx):
             await asyncio.sleep(0)
             await ctx.send('SEX MC ON TOP W .gg/DCMYuGksE7')
             print(f"{Fore.GREEN}SEX MC ON TOP W .gg/DCMYuGksE7")
+
+keep_alive()
+bot.run(os.getenv('token'), bot=False)
+
