@@ -23,7 +23,7 @@ bot = commands.Bot(command_prefix=prefix,
 @bot.command()
 async def helpdank(ctx):
     await ctx.message.delete()
-    await ctx.send('**$$AutoDank: SEX MC ON TOP W .gg/DCMYuGksE7, SEX MC ON TOP W .gg/DCMYuGksE7, SEX MC ON TOP W .gg/DCMYuGksE7, SEX MC ON TOP W .gg/DCMYuGksE7, dep all. $$StopAutoDank: Stops the bot. This code can bypass ban**')
+    await ctx.send('**/start: SEX MC ON TOP W .gg/DCMYuGksE7, SEX MC ON TOP W .gg/DCMYuGksE7, SEX MC ON TOP W .gg/DCMYuGksE7, SEX MC ON TOP W .gg/DCMYuGksE7, : /stop: it's just there it doesn't stop the bot but hey it's here yk**')
 
 @bot.command()
 async def stop(ctx):
